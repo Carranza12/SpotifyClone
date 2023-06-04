@@ -1,0 +1,7 @@
+{
+  "name": "spotify-clone",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
