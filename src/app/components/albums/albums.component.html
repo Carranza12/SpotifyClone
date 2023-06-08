@@ -1,0 +1,19 @@
+<div class="container_section">
+  <header class="container_header">
+    <section class="container_header_section_title">
+      <span class="title"> {{sectionTitle}} </span>
+    </section>
+    <section *ngIf="showMenu" class="container_header_section_menu">
+      <img src="../../assets/icons/bell.svg" alt="">
+      <img src="../../assets/icons/clock.svg" alt="">
+      <img src="../../assets/icons/settings.svg" alt="">
+    </section>
+  </header>
+  <section class="items">
+    <article class="item" *ngFor="let song of songs">
+      <img [src]="song.image" alt="">
+      <span> {{song.name}} </span>
+    </article>
+  </section>
+
+</div>
